@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculator - Xiaowen</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Online Calculator</h1>
+        <form action="CalcSrv" method="post">
+            <table>
+                <tr>
+                    <td>Number 1:</td>
+                    <td><input type="text" name="num1"></td>
+                </tr>
+                <tr>
+                    <td>Operator:</td>
+                    <td><input type="radio" name="operator" value="+" checked>add
+                        <input type="radio" name="operator" value="-">subtract
+                        <input type="radio" name="operator" value="/">div
+                        <input type="radio" name="operator" value="*">multiply</td>
+                </tr>
+                <tr>
+                    <td>Number 2:</td>
+                    <td><input type="text" name="num2"></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="submit" value="Calculate"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
